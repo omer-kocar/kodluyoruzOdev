@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ömer Koçar | Ödev 1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<!-- bütün butonları stillendirmek için butonlara class verdim ve style etiketi altında  stillendirdim. -->
+<!-- Daha güzel gözükmesini istediğim için biraz css kullanmam gerekti. -->
+<style>
+    button {
+        margin-left: 20px;
+        padding: 8px 20px;
+        letter-spacing: 2px;
+        font-size: 15px;
+        background-color: #F78501;
+        color: white;
+        border: 1px solid rgba(95, 2, 2, 0.616);
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+        text-transform: capitalize;
+        box-shadow: 5px 10px rgb(192, 192, 192);
+    }
+
+    button:hover {
+        color: black;
+        transition: 1s;
+        background: rgb(144, 247, 123);
+        font-size: 30px;
+    }
+</style>
+
+
+
+<body style="background-color: rgb(219, 219, 219);">
+    <!-- Body'nin altında iki farklı div oluşturdum. Daha güzel gözükmeleri için divleri stillendirdim. -->
+    <div class="h1">
+
+        <h1
+            style=" text-align: center; border: 1px solid black; background-image: linear-gradient(180deg, rgb(94, 94, 94), rgb(163, 163, 163)); border-radius: 8px; padding-top: 20px; padding-bottom: 20px; padding-left: 20px; color: white;">
+            Ömer Koçar</h1>
+
+    </div>
+
+    <div style=" text-align: center;">
+        <hr>
+        <h3><mark>Hakkımda</mark></h2>
+            <p style="font-size: 18px;"><b>Merhaba. Ben Ömer Koçar. İstabul'da Anadolu yakasında yaşıyorum. 27
+                    yaşındayım ve mimarım. Fakat
+                    sektör
+                    değişikliği yaparak frontend developer olma yolunda ilerliyorum. </b></p>
+
+            <!-- Paragrafları bölmek için arasına çizgi çektim -->
+            <hr>
+
+            <!-- mark etiketi ile vurgulu yazdırdım -->
+            <h3><mark>Sevdiğim Diziler</mark></h3>
+
+            <!--  kalın yazım için strong, italic yazım için em etiketlerini kullandım. -->
+            <p><strong>Lorem ipsum dolor sit</strong>, <em>amet consectetur</em> adipisicing elit. Iusto facilis
+                quam
+                eligendi. <br> Voluptatibus aliquid voluptatem quibusdam perferendis veritatis laboriosam nam, culpa
+                corrupti
+                inventore repellendus recusandae <u>quidem blanditiis harum repudiandae omnis?<br><br></u> </p>
+            <hr>
+    </div>
+    <!-- buttonlara sosyal media linkeri verdim, font-awesome kullanarak iconları kullandım. -->
+    <div class="btn" style="text-align: center; margin-top: 300px;">
+        <button onClick="parent.location='https://twitter.com/omrkcrr'" value="twitter"> Twitter | <i
+                class="fa fa-twitter"></i> </button>
+        <button onClick="parent.location='https://github.com/omer-kocar'" value="github">Github | <i
+                class="fa fa-github"></i> </button>
+
+        <button onClick="parent.location='https://www.linkedin.com/in/omerkocar/'" value="linkedin">LinkedIn | <i
+                class="fa fa-linkedin"></i></button>
+
+    </div>
+
+    <div style="text-align: center; margin-top: 60px;">
+
+        <!-- Kodluyoruz logosunu koymak için img etiketi oluşturdum -->
+        <a style="text-decoration: none;" href="https://www.kodluyoruz.org/" target="_blank">
+            <img src="logo/logo-1.png" style="padding: 10px;" height="100px" alt="kodluyoruz-logo">
+        </a>
+        <!-- Kendi websitesi logomu koydum ve logolara link atadım. -->
+        <a style="text-decoration: none;" href="http://omerkocar.com/" target="_blank">
+            <img src="logo/logo.png" height="100px" alt="omerKocar personal website">
+        </a>
+        <h4 style="color: rgb(134, 134, 134);">| Kodluyoruz ilk ödev</h4>
+    </div>
+
+
+</body>
+
+</html>
